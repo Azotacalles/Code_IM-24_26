@@ -54,8 +54,8 @@ class Person():
         self.name = name
         self.age = age
 
-    def say(self, person: "Car"):
-        print(f"Hello, {person.color}")
+    def say(self, person: "Person"):
+        print(f"Hello, {person.age}")
 
 # p1 = Person("Elena", 67)
 # p2 = Person("Olga", 65)
